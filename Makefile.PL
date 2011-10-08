@@ -2,7 +2,7 @@ use inc::Module::Install;
 name 'MouseX-SingletonMethod';
 all_from 'lib/MouseX/SingletonMethod.pm';
 
-# requires '';
+requires 'Mouse';
 
 tests 't/*.t';
 author_tests 'xt';
