@@ -3,6 +3,7 @@ name 'MouseX-SingletonMethod';
 all_from 'lib/MouseX/SingletonMethod.pm';
 
 requires 'Mouse';
+requires 'Mouse::Role';
 
 tests 't/*.t';
 author_tests 'xt';

@@ -1,4 +1,6 @@
 package MouseX::SingletonMethod::Role;
+use strict;
+use warnings;
 use Mouse::Role;
 
 my $singleton = sub {
