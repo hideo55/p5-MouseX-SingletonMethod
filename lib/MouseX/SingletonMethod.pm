@@ -80,11 +80,14 @@ Same as above except allows multiple method declaration:
       bar2 => sub { 'bar2' },
   );
 
+=head1 SEE ALSO
+
+L<Mouse>
+L<MooseX::SingletonMethod>
+
 =head1 AUTHOR
 
 Hideaki Ohno E<lt>hide.o.j55 {at} gmail.comE<gt>
-
-=head1 SEE ALSO
 
 =head1 LICENSE
 

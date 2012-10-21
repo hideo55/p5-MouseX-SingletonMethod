@@ -32,3 +32,40 @@ sub add_singleton_methods {
 no Mouse::Role;
 1;
 __END__
+
+=pod
+
+=head1 NAME
+
+MouseX::SingletonMethod::Role - Role providing Singleton Method option
+
+=head1 DESCRIPTION
+
+See L<MouseX::SingletonMethod>
+
+=head1 MEtHODS
+
+=head2 become_singleton
+
+Make the object a singleton
+
+=head2 add_singleton_method
+
+Adds a singleton method to this object:
+
+  $foo->add_singleton_method( foo => sub { 'foo' } );
+
+=head2 add_singleton_methods
+
+Same as above except allows multiple method declaration:
+
+  $bar->add_singleton_methods(
+      bar1 => sub { 'bar1' },
+      bar2 => sub { 'bar2' },
+  );
+
+=head1 AUTHOR
+
+Hideaki Ohno E<lt>hide.o.j55 {at} gmail.comE<gt>
+
+=cut
