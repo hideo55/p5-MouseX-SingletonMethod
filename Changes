@@ -1,5 +1,7 @@
 Revision history for Perl extension MouseX::SingletonMethod
 
+{{$NEXT}}
+
 0.03    Mon Oct 22 01:25:00 2012
         - Switch to Module::Build
 
