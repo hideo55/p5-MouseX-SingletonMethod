@@ -1,6 +1,7 @@
 package MouseX::SingletonMethod;
 use strict;
 use warnings;
+use 5.008001;
 
 use Mouse ();
 use Mouse::Exporter;

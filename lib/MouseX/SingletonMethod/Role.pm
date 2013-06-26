@@ -43,7 +43,7 @@ MouseX::SingletonMethod::Role - Role providing Singleton Method option
 
 See L<MouseX::SingletonMethod>
 
-=head1 MEtHODS
+=head1 METHODS
 
 =head2 become_singleton
 

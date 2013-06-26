@@ -49,7 +49,7 @@
          "requires" : {
             "Mouse" : "0",
             "Mouse::Role" : "0",
-            "perl" : "v5.6.2"
+            "perl" : "5.008001"
          }
       }
    },
