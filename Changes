@@ -2,6 +2,10 @@ Revision history for Perl extension MouseX::SingletonMethod
 
 {{$NEXT}}
 
+0.04 2013-06-26T12:33:18Z
+    - Switch to Minilla
+    - Fixed typo in document
+
 0.03    Mon Oct 22 01:25:00 2012
         - Switch to Module::Build
 
