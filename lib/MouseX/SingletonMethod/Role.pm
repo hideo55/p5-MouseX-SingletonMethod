@@ -3,6 +3,8 @@ use strict;
 use warnings;
 use Mouse::Role;
 
+our $VERSION = '0.04';
+
 my $singleton = sub {
     my $self = shift;
     my $methods = shift || {};
