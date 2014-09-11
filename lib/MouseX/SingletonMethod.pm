@@ -7,7 +7,7 @@ use Mouse ();
 use Mouse::Exporter;
 use Mouse::Util::MetaRole;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 Mouse::Exporter->setup_import_methods( also => 'Mouse' );
 
