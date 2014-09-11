@@ -2,23 +2,18 @@
 
 MouseX::SingletonMethod - Mouse with Singleton Method facility
 
-
-
 # SYNOPSIS
 
     package Foo;
     use MouseX::SingletonMethod;
     no MouseX::Singleton;
     
-
     package main;
     my $foo1 = Foo->new;
     my $foo2 = Foo->new;
     
-
     $foo1->add_singleton_method( foo => sub { 'foo' } );
     
-
     say $foo1->foo; # => 'foo'
     say $foo2->foo; # ERROR: Can't locate object method "foo" ...
 
@@ -57,8 +52,8 @@ Same as above except allows multiple method declaration:
 
 # SEE ALSO
 
-[Mouse](http://search.cpan.org/perldoc?Mouse)
-[MooseX::SingletonMethod](http://search.cpan.org/perldoc?MooseX::SingletonMethod)
+[Mouse](https://metacpan.org/pod/Mouse)
+[MooseX::SingletonMethod](https://metacpan.org/pod/MooseX::SingletonMethod)
 
 # AUTHOR
 
